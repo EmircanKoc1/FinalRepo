@@ -30,7 +30,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B test --file TemelHesaplama2/pom.xml
+      run: mvn -B test --file ArdahanSecimApi/pom.xml
     
     - name: Add coverage to PR
       id: jacoco
